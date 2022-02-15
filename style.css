@@ -1,6 +1,12 @@
 body {
-    background-color:paleturquoise;
+    background-color:#181a27;
     font-family: 'Bebas Neue', cursive;
     font-size:x-large;
-    color:red
+    color:#e88565
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
