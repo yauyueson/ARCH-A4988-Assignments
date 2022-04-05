@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    }
+    
+
+body {
+    background-color:#e88565;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    font-family: 'Libre Baskerville', serif;
+    color: #181a27 ;
+    font-size: 8em;
+    height: 98%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-size: 1.75em;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:#181a27;
+}
+
+footer a:hover{
+    font-size: 2em;
+    font-style: italic;
+}

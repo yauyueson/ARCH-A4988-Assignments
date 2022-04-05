@@ -1,12 +1,23 @@
 body {
-    background-color:#181a27;
-    font-family: 'Bebas Neue', cursive;
-    font-size:x-large;
-    color:#e88565
+    background-color:#e88565;
+    font-family: 'Libre Baskerville', serif;
+    color:#181a27;
+    font-size: 40px;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+body a{
+    text-decoration: none;
+    color: #181a27;
+}
+
+body a:hover{
+    font-size: larger;
+    color: #ffffff;
+
 }
