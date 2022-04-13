@@ -1,23 +1,57 @@
-body {
-    background-color:#e88565;
-    font-family: 'Libre Baskerville', serif;
-    color:#181a27;
-    font-size: 40px;
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container{
+
+body {
+    height: 100vh;
+    background-color: #f2f2f2;
+    font-family: 'Libre Baskerville', serif;
+    color:#e88565;
+    font-size: 30px;
+    font-weight: 400;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+main{
+    background-color: #181a27;
+    width: 50vw;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+main h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+
+main h2{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main ul li{
+    list-style: none;
+}
+
 body a{
     text-decoration: none;
-    color: #181a27;
+    color:#e88565;
 }
 
 body a:hover{
-    font-size: larger;
     color: #ffffff;
-
 }
+
