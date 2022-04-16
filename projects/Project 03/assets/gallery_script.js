@@ -1,6 +1,6 @@
 // IMPORT JAVASCRIPT OBJECT
 
-const cards =[
+const nft =[
   {
    "Serial No": 1,
    "Name": "CryptoPunk #3100",
@@ -74,91 +74,93 @@ const cards =[
   {
    "Serial No": 11,
    "Name": "Bored Ape Yacht Club #3368",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 29.5",
    "URL": "https:\/\/lh3.googleusercontent.com\/u-2FnHbaJ3U_KCDlmg2McX9Yfo7brsAzOffqihNXCGkHljA89SPPzwdjQiVSWcsvxCoj_ydBcDNCuZvHEekaYekaMEH4XX32k9US=w600"
   },
   {
    "Serial No": 12,
    "Name": "Bored Ape Yacht Club #3650",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 69",
    "URL": "https:\/\/lh3.googleusercontent.com\/1up7IvZnXj99OAavLkjdahY4ROjwqOKDvgmPxceirndDuW_YJUOToHGJldUI0LjtFTUFbHfikAMN5nr_uWxi1tcVtjhJN45DAwV_QQ=w600"
   },
   {
    "Serial No": 13,
    "Name": "Bored Ape Yacht Club #9996",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 0.39",
    "URL": "https:\/\/lh3.googleusercontent.com\/oOxrPSqIusE3pR1vLRSTQwfn52LnwnsZ_a1nCXked6fwOHrOnhvMBM1uMpshUb8Q4lL-gnlV9YoteT9cXnDgIsz46Zkbo7CImK-yKw=w600"
   },
   {
    "Serial No": 14,
    "Name": "Bored Ape Yacht Club #122",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 23",
    "URL": "https:\/\/lh3.googleusercontent.com\/BLM8j8CkydHV2XuYC-ZB_bFiCFFjAbMPYCKr7BUVEPZpGnjfOdTcIwtJR-VKldUodiKn1qR-bypOLla0Ci9I_byu9OC70zjJHjZFWw=w600"
   },
   {
    "Serial No": 15,
    "Name": "Bored Ape Yacht Club #8470",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 51",
    "URL": "https:\/\/lh3.googleusercontent.com\/eqXJ2N23ycVCyKLKegfprn7sAdfeLUe4OpZ3i8i36lc07u-0jgiE6U2hM5bkHwRAvEyGhRktz2T1MD4Kbh4ojZn2f2GOKi-TB8Un2Q=w600"
   },
   {
    "Serial No": 16,
    "Name": "Bored Ape Yacht Club #955",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 140",
    "URL": "https:\/\/lh3.googleusercontent.com\/7Wg2BOR6Y19roz1O4ZbHucCQQvYiseV47tOYgy8Jp27vlLeUPGXPwrYH1aAQZJ8n88XL2F9McN56RzM8EBQbd-RUsNmHIbx6Swu60Jw=w600"
   },
   {
    "Serial No": 17,
    "Name": "Bored Ape Yacht Club #4303",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 95",
    "URL": "https:\/\/lh3.googleusercontent.com\/a0Hq33FbaDYQB5SqSlwyb2AUYOcZYaa2JoadJVoegfG26546E7ARj6BAlG3NX5yOGtNNTw6JcTwiRO8qEmcpNBcSyw8bg9W5eqw90Q=w600"
   },
   {
    "Serial No": 18,
    "Name": "Bored Ape Yacht Club #9419",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 73.5",
    "URL": "https:\/\/lh3.googleusercontent.com\/j_0RWoaLct0GOHnW4EGpT9p-u1yIpSkd6R8JWKbg_9AoiP9HMKTZj2GKETacOgIAlL--7irqVFwqTGqDrrgaxJMoaw2-NrR-IvE0=w600"
   },
   {
    "Serial No": 19,
    "Name": "Bored Ape Yacht Club #1455",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 47.99",
    "URL": "https:\/\/lh3.googleusercontent.com\/NTqLmufORLnsDfM7PXMy8CKAU9Hi4F1SoSqAVjDntISqNc0TPEi0oEM08MCYgOureqWAADfZt-h3x8NDzrD6Heme1gCqge4KYxrAWw=w600"
   },
   {
    "Serial No": 20,
    "Name": "Bored Ape Yacht Club #2180",
-   "Collection": "Bored Ape Yacht Club",
+   "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 97",
    "URL": "https:\/\/lh3.googleusercontent.com\/M8AUbgTlaOl6gMTDHh0maDiUXiyKFGlOPjspVoPDTs_Cd5Xujttwk7lvi4FFkCJXREND3edb99cERHc4wKpP4tiGMMekH-_Eva_R9A=w600"
   }
  ];
 
  
+
   //RENDER CARDS TO PAGE
 
-  const ul = document.querySelector('ul');
+  const ul = document.querySelector('.card-content');
 
   function renderCardsToPage(cards){
     for(i=0; i<cards.length; i++){
         let list_item = document.createElement('li');
+        list_item.classList.add(cards[i]['Collection'],'cards');
         //card name
-        let number = document.createElement("h2");
+        let number = document.createElement("h3");
         number.textContent=cards[i]['Name'];
         //card price
-        let price = document.createElement("h3");
+        let price = document.createElement("h4");
         price.textContent=cards[i]['Last Price'];
         //card collection
-        let collection = document.createElement("h3");
+        let collection = document.createElement("h4");
         collection.textContent=cards[i]['Collection'];
         //card image
         let image = document.createElement("img");
@@ -171,4 +173,33 @@ const cards =[
     }
   }
 
-  renderCardsToPage(cards);
+  renderCardsToPage(nft);
+
+
+
+  //BUILD FILTER FUNCTION
+
+  let filterBtns = document.querySelector('.filter-content');
+  let cards = document.querySelectorAll('.cards');
+
+  console.log(cards);
+
+  function filterFn(event){
+
+    const filterValue = event.target.getAttribute('data-filter');
+    
+    console.log(filterValue)
+
+    for(let i = 0; i < cards.length;i++){
+      console.log(cards[i])
+      if(cards[i].classList.contains(filterValue) || filterValue === 'all'){
+        cards[i].classList.remove('hide');
+        cards[i].classList.add('show');
+      }else{
+        cards[i].classList.add('hide');
+        cards[i].classList.remove('show');
+      }
+    }
+  }
+  
+filterBtns.addEventListener('click', filterFn)

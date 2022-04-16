@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* HTML STYLE */
 html{
     background-color: #f2f2f2;
@@ -18,8 +17,8 @@ body{
 
 /* NAVIGATION STYLE */
 nav{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
     font-weight: 600;
     width: 100vw;
     height: 100px;
@@ -46,7 +45,7 @@ nav img{
 nav a{
     padding: 10px 20px;
     text-decoration: none;
-    color: #181a27;
+    color: #ff31c1;
     position: relative;
     letter-spacing: .2em;
     line-height: 2;
@@ -54,8 +53,8 @@ nav a{
 }
 
 nav a:hover{
-    color: #f2f2f2;
-    background-color: #181a27;
+    color: #ffd102;
+    background-color: #7CFFC4;
 }
 
 /* nav a::after{
@@ -102,23 +101,61 @@ main{
 }
 
 .card-container ul li{
-    background-color: white;
-    margin: 0px 10px 10px 10px;
+    background-color: #ff31c1;
+    color: #ffec1e;
+    margin: 0px 20px 20px 20px;
     padding: 10px;
-    border-radius: 5px;
-    border: #181a27 solid 1px;
 }
 
+.card-container ul li:hover{
+    background-color:#7CFFC4;
+    color: #DB504A;
+    transition: 0.75s;
+    cursor: pointer;
+}
+
+
+.card-container ul li{
+   box-shadow: 10px 10px 10px rgba(24,26,39,0.2);
+}
+
+
+.card-container ul li h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-container ul li h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
 .card-container img{
+    margin-top: 10px;
     width: 378px;
     border-radius: 20px;
 }
+
+.card-container ul .cards.hide{
+    display: none;
+}
+
+.card-container ul .cards.show {
+    animation: fadeIn 0.5s ease;
+}
+
 
 
 /* FILTER CONTAINER STYLE */
 .filter-container{
     margin: 0 1.5% 0 3.5%;
     width: 20%;
+    color: #ffec1e;
+}
+
+.filter-content h1{
+    font-size: 30px;
 }
 
 .filter-fixed{
@@ -126,10 +163,10 @@ main{
     width: 20%;
     height: 80vh;
     position: fixed;
-    border: #181a27 solid 1px;
-    background-color: white;
-    border-radius: 20px;
+    background-color: #ff31c1;
+    box-shadow: 10px 10px 10px rgba(24,26,39,0.2);
 }
+
 
 .filter-content{
     margin: 15px auto;
@@ -138,7 +175,37 @@ main{
 
 .black-line{
     margin: auto;
-    background-color: #181a27;
+    background-color: #ffec1e;
     width: 100%;
-    height: 2px;
+    height: 1px;
 }
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.filter-btn{
+    margin: 10px;
+    margin-left: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #ffec1e;
+    transition: 1s;
+    color: #ff31c1;
+}
+
+.filter-btn:hover{
+    color: #f2f2f2;
+    background-color: #7CFFC4;
+    cursor: pointer;
+}
+
+
+
+

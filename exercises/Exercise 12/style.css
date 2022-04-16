@@ -10,16 +10,17 @@ ul{
     flex-wrap: wrap;
 }
 
-ul .card.hide{
+ul .cards.hide{
     display: none;
 }
 
-ul .card.show{
+ul .cards.show {
     animation: fadeIn 0.5s ease;
 }
+
 @keyframes fadeIn {
     0% {opacity: 0;}
-    100%{opacity: 10;}
+    100% {opacity: 1;}
 }
 
 

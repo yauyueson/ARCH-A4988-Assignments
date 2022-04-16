@@ -5,9 +5,9 @@
 }
 /* HTML STYLE */
 html{
-    background-color: #f2f2f2;
     justify-content: center;
     align-items: center;
+    background-color: #f2f2f2;
 }
 
 
@@ -16,10 +16,11 @@ body{
     font-family: 'Space Mono', monospace;
 }
 
+
 /* NAVIGATION STYLE */
 nav{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
     font-weight: 600;
     width: 100vw;
     height: 100px;
@@ -46,7 +47,7 @@ nav img{
 nav a{
     padding: 10px 20px;
     text-decoration: none;
-    color: #181a27;
+    color: #ff1f1f;
     position: relative;
     letter-spacing: .2em;
     line-height: 2;
@@ -54,8 +55,8 @@ nav a{
 }
 
 nav a:hover{
-    color: #f2f2f2;
-    background-color: #181a27;
+    color: #ffd102;
+    background-color: #ff1f1f;
 }
 
 /* MAIN STYLE */
@@ -66,19 +67,28 @@ main{
     top: 100px;
 }
 
+
+
+
 /* INTRO 1 STYLE */
 .intro-1{
-    width: 100%;
+    width: 80%;
+    margin: 0px auto 40px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60vh;
     transition: .5s;
+    background-color: #ffd102;
+    color: #ff1f1f;
+    padding: 30px;
+    box-shadow: 10px 10px 10px rgba(24,26,39,0.2);
 }
+
 .intro-1:hover{
-    color: #f2f2f2;
-    background-color: #181a27;
+    color: #ffd102;
+    background-color: #ff1f1f;
+    cursor: pointer;
 }
 
 .container1-left, .container1-right{
@@ -101,17 +111,23 @@ main{
 
 /* INTRO 2 STYLE */
 .intro-2{
-    width: 100%;
+    width: 80%;
+    margin: 0px auto 20px auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 60vh;
     transition: .5s;
+    background-color: #ffd102;
+    color: #ff1f1f;
+    padding: 30px;
+    box-shadow: 10px 10px 10px rgba(24,26,39,0.2);
 }
+
 .intro-2:hover{
-    color: #f2f2f2;
-    background-color: #181a27;
+    color: #ffd102;
+    background-color: #ff1f1f;
+    cursor: pointer;
 }
 
 .container2-left, .container2-right{
@@ -131,5 +147,3 @@ main{
     font-size: 36px;
     font-weight: 700;
 }
-
-

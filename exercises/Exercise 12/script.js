@@ -39,7 +39,7 @@ const flowers = [
   function renderFlowersToPage(flowers){
     for(i=0; i<flowers.length; i++){
         let list_item= document.createElement('li');
-        list_item.classList.add(flowers[i].color,'card')
+        list_item.classList.add(flowers[i].color,'cards')
 
         //flower name
         let title = document.createElement("h3");
@@ -61,31 +61,27 @@ const flowers = [
 
   // FILTER FLOWERS BY COLOR
 
-  const filterBtns = document.querySelector('.filters')
+  let filterBtns = document.querySelector('.filters');
+  let cards = document.querySelectorAll('.cards');
 
-  const cards = document.querySelectorAll('.cards');
-
+  console.log(cards);
 
   function filterFn(event){
-      
-    if(event.target.classList.contains("filter-btn")){
 
-      const filterValue = event.target.getAttribute('data-filter')
+    const filterValue = event.target.getAttribute('data-filter');
+    
+    console.log(filterValue)
 
-      console.log("clicked",filterValue)
-
-      for(let i=0; i<cards.length; i++){
-        console.log(cards[i])
-
-        if(cards[i].classList.contains(filterValue) || filterValue === "all"){
-        cards[i].classList.remove("hide");
-        cards[i].classList.add("show");
-        }else{
-        cards[i].classList.add("hide");
-        cards[i].classList.remove("show");
-        }
+    for(let i = 0; i < cards.length;i++){
+      console.log(cards[i])
+      if(cards[i].classList.contains(filterValue) || filterValue === 'all'){
+        cards[i].classList.remove('hide');
+        cards[i].classList.add('show');
+      }else{
+        cards[i].classList.add('hide');
+        cards[i].classList.remove('show');
+      }
     }
-   }
   }
 
   
