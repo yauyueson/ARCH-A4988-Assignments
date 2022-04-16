@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML STYLE */
+html{
+    background-color: #f2f2f2;
+}
+
+
+/* BODY STYLE */
+body{
+    font-family: 'Space Mono', monospace;
+}
+
+
+/* NAVIGATION STYLE */
+nav{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100vw;
+    height: 100px;
+    margin: auto;
+    position: fixed;
+    z-index: 1;
+    background-color: #f2f2f2;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+nav img{
+    height: 100%;
+    width: auto;
+}
+
+
+nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #181a27;
+    position: relative;
+    letter-spacing: .2em;
+    line-height: 2;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: #f2f2f2;
+    background-color: #181a27;
+}
+
+/* nav a::after{
+    content: "";
+    position: absolute;
+    background-color:#181a27;
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -3px;
+    transition: 0.5s;
+}
+
+nav a:hover::after{
+    width: 100%;
+} */
+
+
+/* MAIN STYLE */
+main{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* CARD CONTAINER STYLE */
+.card-container{
+    margin: 0 3.5% 0 1.5%;
+    width: 70%;
+}
+
+.card-container ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.card-container ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.card-container ul li{
+    background-color: white;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #181a27 solid 1px;
+}
+
+.card-container img{
+    width: 378px;
+    border-radius: 20px;
+}
+
+
+/* FILTER CONTAINER STYLE */
+.filter-container{
+    margin: 0 1.5% 0 3.5%;
+    width: 20%;
+}
+
+.filter-fixed{
+    margin: auto;
+    width: 20%;
+    height: 80vh;
+    position: fixed;
+    border: #181a27 solid 1px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.filter-content{
+    margin: 15px auto;
+    width: 90%;
+}
+
+.black-line{
+    margin: auto;
+    background-color: #181a27;
+    width: 100%;
+    height: 2px;
+}
