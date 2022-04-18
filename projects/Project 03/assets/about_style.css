@@ -5,9 +5,7 @@
 }
 /* HTML STYLE */
 html{
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 
@@ -19,15 +17,15 @@ body{
 
 /* NAVIGATION STYLE */
 nav{
-    font-family: 'Space Mono', monospace;
-    font-size: 24px;
-    font-weight: 600;
+    font-family: "Rois Medium";
+    font-size: 60px;
+    font-weight: 300;
     width: 100vw;
-    height: 100px;
+    height: 90px;
     margin: auto;
     position: fixed;
     z-index: 1;
-    background-color: #f2f2f2;
+    background-color:white;
 }
 
 nav{
@@ -36,6 +34,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    box-shadow: 0px 10px 10px rgba(24,26,39,0.15);
 }
 
 nav img{
@@ -45,18 +44,17 @@ nav img{
 
 
 nav a{
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-decoration: none;
-    color: #ff1f1f;
+    color: #00b8ff;
     position: relative;
-    letter-spacing: .2em;
-    line-height: 2;
+    letter-spacing: .15em;
     transition: 1s;
 }
 
 nav a:hover{
-    color: #ffd102;
-    background-color: #ff1f1f;
+    color: #00ff9f;
+ 
 }
 
 /* MAIN STYLE */
@@ -64,30 +62,29 @@ main{
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 100px;
+    top: 130px;
 }
-
-
 
 
 /* INTRO 1 STYLE */
 .intro-1{
     width: 80%;
     margin: 0px auto 40px auto;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     transition: .5s;
-    background-color: #ffd102;
-    color: #ff1f1f;
+    background-color: #00b8ff;
+    color: #00ff9f;
     padding: 30px;
     box-shadow: 10px 10px 10px rgba(24,26,39,0.2);
 }
 
 .intro-1:hover{
-    color: #ffd102;
-    background-color: #ff1f1f;
+    color: #ff31c1;
+    background-color: #7CFFC4;
     cursor: pointer;
 }
 
@@ -118,15 +115,15 @@ main{
     justify-content: center;
     align-items: center;
     transition: .5s;
-    background-color: #ffd102;
-    color: #ff1f1f;
+    background-color: #7CFFC4;
+    color: #ff31c1;
     padding: 30px;
     box-shadow: 10px 10px 10px rgba(24,26,39,0.2);
 }
 
 .intro-2:hover{
-    color: #ffd102;
-    background-color: #ff1f1f;
+    color: #00ff9f;
+    background-color: #00b8ff;
     cursor: pointer;
 }
 

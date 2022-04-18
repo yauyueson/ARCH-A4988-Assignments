@@ -5,7 +5,7 @@
 }
 /* HTML STYLE */
 html{
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 
@@ -17,15 +17,15 @@ body{
 
 /* NAVIGATION STYLE */
 nav{
-    font-family: 'Space Mono', monospace;
-    font-size: 24px;
-    font-weight: 600;
+    font-family: "Rois Medium";
+    font-size: 60px;
+    font-weight: 300;
     width: 100vw;
-    height: 100px;
+    height: 90px;
     margin: auto;
     position: fixed;
     z-index: 1;
-    background-color: #f2f2f2;
+    background-color:white;
 }
 
 nav{
@@ -34,28 +34,23 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    box-shadow: 0px 10px 10px rgba(24,26,39,0.15);
 }
-
-nav img{
-    height: 100%;
-    width: auto;
-}
-
 
 nav a{
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-decoration: none;
-    color: #ff31c1;
+    color: #00b8ff;
     position: relative;
-    letter-spacing: .2em;
-    line-height: 2;
+    letter-spacing: .15em;
     transition: 1s;
 }
 
 nav a:hover{
-    color: #ffd102;
-    background-color: #ff31c1;
+    color: #00ff9f;
+ 
 }
+
 
 /* nav a::after{
     content: "";
@@ -75,9 +70,8 @@ nav a:hover::after{
 /* MAIN STYLE */
 main{
     position: relative;
-    top: 100px;
+    top: 90px;
 }
-
 
 
 /* SECTION STYLE */
@@ -88,15 +82,16 @@ section{
 
 /* TEXT MARQUEE STYLE */
 .text-marquee{
-    background-color:#ff31c1;
+    background-color:#00b8ff;
     width: 100vw;
     white-space: nowrap;
     overflow: hidden;
 }
 
 .text-marquee div{
-    color: #ffd102;
-    font-size: 18px;
+    color: #00ff9f;
+    font-size: 19px;
+    font-weight: 700;
     animation: animate 60s linear infinite;
     padding-left: 100%;
     display: inline-block;

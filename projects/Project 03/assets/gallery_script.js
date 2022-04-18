@@ -140,6 +140,146 @@ const nft =[
    "Collection": "BoredApeYachtClub",
    "Last Price": "ETH 97",
    "URL": "https:\/\/lh3.googleusercontent.com\/M8AUbgTlaOl6gMTDHh0maDiUXiyKFGlOPjspVoPDTs_Cd5Xujttwk7lvi4FFkCJXREND3edb99cERHc4wKpP4tiGMMekH-_Eva_R9A=w600"
+  },
+  {
+   "Serial No": 21,
+   "Name": "Mutant Ape Yacht Club #15352",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "ETH 69",
+   "URL": "https:\/\/lh3.googleusercontent.com\/-Yl4DMKOJhcNSRVqJCQ57itbUKN97YzRMiIgCk8aU7drYiFQYYq8cl5FlHUZLbxAhCyJiQ3P7zzijbfyhZHghFpNRGQW6SNqiS_i=w600"
+  },
+  {
+   "Serial No": 22,
+   "Name": "Mutant Ape Yacht Club #8810",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 24.5",
+   "URL": "https:\/\/lh3.googleusercontent.com\/8ir3j_xTVQ4-4wAZ5U0uOiLc7Jc6PJuGhIvSdLKr5r3zVBWJiNhrZu2z7MFTHVg5IlmEu5LR2o9Hpl_lVzu0lGWh5gPZ9cJL8Ifq9Q=w600"
+  },
+  {
+   "Serial No": 23,
+   "Name": "Mutant Ape Yacht Club #6044",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 25.4985",
+   "URL": "https:\/\/lh3.googleusercontent.com\/FRnfoqP_aB1H-ZG5mw13pBPeH9765AnXXxsFNZg6vnpux_46WqDTswvVjXyKhwTSWGIlfEp5gG_8RUdCOIbTpteK0clxJCcgBf6e-g=w600"
+  },
+  {
+   "Serial No": 24,
+   "Name": "Mutant Ape Yacht Club #13856",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 0.2496",
+   "URL": "https:\/\/lh3.googleusercontent.com\/llAeu8wuoTdtwJLDy7xe6LOw5-Dj_TPAKs5fU9X9M7fwgHDmXfz0xeehpu1YPEUj1AxT4oulLxRIQYtatzCWo3C5Zl3ifjUWVnMFuyM=w600"
+  },
+  {
+   "Serial No": 25,
+   "Name": "Mutant Ape Yacht Club #17107",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 26.01",
+   "URL": "https:\/\/lh3.googleusercontent.com\/hZb9LN5zTOhUdEkaSgXPJPoSXH7rMQguG4_dxIsF0EvmwJ2C9dN7VU5l2KP66BlfdLgJRiPvH82zOfp0XUhOZJbpzVhCC_eC4QOi3w=w600"
+  },
+  {
+   "Serial No": 26,
+   "Name": "Mutant Ape Yacht Club #7208",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 26.28",
+   "URL": "https:\/\/lh3.googleusercontent.com\/z58CQCG3qsaSyJINKelfLCFgMjtCJrVXUf330oWKW-pFBvHQFdXhN0eIDNLF0r0Ak4QU-W9xMXZSkDSiPKN-T8f6ZqnXeLyWhIad=w600"
+  },
+  {
+   "Serial No": 27,
+   "Name": "Mutant Ape Yacht Club #861",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "ETH 51",
+   "URL": "https:\/\/lh3.googleusercontent.com\/uWYUcbkrCp_l6DmKEx5wI8wLC209jdfHokZY-IRCrNAk8mQnCqSEexo32itUtqXtut5FXLO0PGyi8s8xBDAKeS4BUmyKqLoH188yDA=w600"
+  },
+  {
+   "Serial No": 28,
+   "Name": "Mutant Ape Yacht Club #2196",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 25.51",
+   "URL": "https:\/\/lh3.googleusercontent.com\/p8m4ceuIDgOhk9m6TjXQuAA_yOON0t3UxCSYl4AutjEO2M0UoVix4rlH16_Pnj5bKRXjJK2cqgkAHwpxFOVRDp-h8fkPFLhxLcA0BA=w600"
+  },
+  {
+   "Serial No": 29,
+   "Name": "Mutant Ape Yacht Club #4849",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 22.928",
+   "URL": "https:\/\/lh3.googleusercontent.com\/dG9YdzvAUCNMhB9cwDLziLFWoHgGytlCxAQ-uJ67USsch7-6iZu5kvgMcMB8WGpbXRXdq7A86Z-P9lUvceQ-MaSUTsAP2qYEKo_0dg=w600"
+  },
+  {
+   "Serial No": 30,
+   "Name": "Mutant Ape Yacht Club #15290",
+   "Collection": "MutantApeYachtClub",
+   "Last Price": "WETH 28",
+   "URL": "https:\/\/lh3.googleusercontent.com\/VjcjwhsEOK-JRYdhJ95mXoz6PB3yfnqYRZ8gi7O8_1NAUdUCaKlP-YvHS7LHrsPREHccEnWmtRJ1r2mTqymb8UfuKVTuv6iDc7u8NQ=w600"
+  },
+  {
+   "Serial No": 31,
+   "Name": "Azuki #2892",
+   "Collection": "Azuki",
+   "Last Price": "WETH 2",
+   "URL": "https:\/\/lh3.googleusercontent.com\/6eCZ80yOwiDInlqFpl1co-KY2tWAqK9hjAFTTyrdVNLnW3uVXYSFOzeyqQCF6IOL1toaQ0wHaFKPZF7fr_BaVrF9bkrDs4gwna-p=w600"
+  },
+  {
+   "Serial No": 32,
+   "Name": "Azuki #1102",
+   "Collection": "Azuki",
+   "Last Price": "WETH 2",
+   "URL": "https:\/\/lh3.googleusercontent.com\/nvDfmXW5LGyS4nCP94LDzM7dfF--AixcFVrwbHkgLl0OlIgk3LROoizW7VOnrLwZ5N773PEuQlr2m76GHN0XB1sK4QzWVRf3qNPQ9tE=w600"
+  },
+  {
+   "Serial No": 33,
+   "Name": "Azuki #7103",
+   "Collection": "Azuki",
+   "Last Price": "WETH 2.9",
+   "URL": "https:\/\/lh3.googleusercontent.com\/IS4ySvhI8jGQsg_2fNFT3127JK61umYOGkulDrgVNxkBMeXz6acFjWjK1hmMBnMHPYnUq95NvmbBtUnfso8oR9GpRx_yL8L3w5lm=w600"
+  },
+  {
+   "Serial No": 34,
+   "Name": "Azuki #5622",
+   "Collection": "Azuki",
+   "Last Price": "WETH 2.9",
+   "URL": "https:\/\/lh3.googleusercontent.com\/X4e1zA-nKpStOn-08GgZj7p3T_rj25Ek-lHaSVBb4_xCyC2xVFr8x7Ot_zMjhjHaIocfr69d3UIwFbNlm7EBRjAIZEyri4ppAobnhg=w600"
+  },
+  {
+   "Serial No": 35,
+   "Name": "Azuki #3222",
+   "Collection": "Azuki",
+   "Last Price": "WETH 2.9",
+   "URL": "https:\/\/lh3.googleusercontent.com\/H-_u3B0UJNSZib96-nEbADPMv3wOU5JAd9MLY-xayWG_W5GcyOPhvefu9V8jHn2Y7DNeY4Y6qKIEm3-YR-oBRuJIZXWi8EeiAaFesA=w600"
+  },
+  {
+   "Serial No": 36,
+   "Name": "Azuki #2362",
+   "Collection": "Azuki",
+   "Last Price": "WETH 10",
+   "URL": "https:\/\/lh3.googleusercontent.com\/TE48KfhWwfn0c_EYFsvSCpzWtemyv0hi4U7z7K2LiA-rnC859lSGfkewCqN22AACl2Yk3S4_6tMCOW2VvyuC-ozjxX3ZIug1hNBGuA=w600"
+  },
+  {
+   "Serial No": 37,
+   "Name": "Azuki #2903",
+   "Collection": "Azuki",
+   "Last Price": "WETH 16.6183",
+   "URL": "https:\/\/lh3.googleusercontent.com\/aHNYkgTz17mImz12xhxqEtnmRg-08JZd6pBmahSHqcGFNJv2qP2nS8R_75mrSBjrBcCKx0wTOYowo9_qD0dXDm_lvAbzwNralZa1zw=w600"
+  },
+  {
+   "Serial No": 38,
+   "Name": "Azuki #9107",
+   "Collection": "Azuki",
+   "Last Price": "WETH 16.6183",
+   "URL": "https:\/\/lh3.googleusercontent.com\/ACeKtE7bMnIVYey3DfdM6DWTOt216fOC16MLEPCVp3rAw19IUogxmZtA_DhPbDu9dAnQlr_m0IHMf1p64sGq1bll14Jk_WNdBJjY=w600"
+  },
+  {
+   "Serial No": 39,
+   "Name": "Azuki #9183",
+   "Collection": "Azuki",
+   "Last Price": "WETH 16.6183",
+   "URL": "https:\/\/lh3.googleusercontent.com\/usaYBdGv3CX1R2bjph0OKkELUtL_8hMMmT61RacNWWPK2uCgBGEQH-rHUk9zJ6V1lAM2Fbzv3KJucB7job8mcSeP4Z8mLJLjFXln=w600"
+  },
+  {
+   "Serial No": 40,
+   "Name": "Azuki #4035",
+   "Collection": "Azuki",
+   "Last Price": "WETH 16.6183",
+   "URL": "https:\/\/lh3.googleusercontent.com\/R1i0cndlxRVg9YNhDK8Z7zefYxy1SDbhEjxB_GNwYVjMq_CsPxSOZ1hKYZxcOz3rmCqdfwVJ5GcWK0AG2q7uyZ6hrp1aOBV66Gcaqw=w600"
   }
  ];
 
@@ -150,6 +290,7 @@ const nft =[
   const ul = document.querySelector('.card-content');
 
   function renderCardsToPage(cards){
+
     for(i=0; i<cards.length; i++){
         let list_item = document.createElement('li');
         list_item.classList.add(cards[i]['Collection'],'cards');
@@ -185,21 +326,23 @@ const nft =[
   console.log(cards);
 
   function filterFn(event){
-
-    const filterValue = event.target.getAttribute('data-filter');
+    if (event.target.classList.contains('filter-btn')){
+      const filterValue = event.target.getAttribute('data-filter');
     
-    console.log(filterValue)
-
-    for(let i = 0; i < cards.length;i++){
-      console.log(cards[i])
-      if(cards[i].classList.contains(filterValue) || filterValue === 'all'){
-        cards[i].classList.remove('hide');
-        cards[i].classList.add('show');
-      }else{
-        cards[i].classList.add('hide');
-        cards[i].classList.remove('show');
+      console.log(filterValue)
+  
+      for(let i = 0; i < cards.length;i++){
+        console.log(cards[i])
+        if(cards[i].classList.contains(filterValue) || filterValue === 'all'){
+          cards[i].classList.remove('hide');
+          cards[i].classList.add('show');
+        }else{
+          cards[i].classList.add('hide');
+          cards[i].classList.remove('show');
+        }
       }
     }
-  }
+   }
+    
   
 filterBtns.addEventListener('click', filterFn)
