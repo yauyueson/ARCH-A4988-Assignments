@@ -1,4 +1,6 @@
-// IMPORT JAVASCRIPT OBJECT
+
+
+// IMPORT JAVASCRIPT OBJECT (EXTRACTED FROM JSON)
 
 const nft =[
     {
@@ -284,32 +286,278 @@ const nft =[
    ];
   
   
-  
-//RENDER CARD COLLECTION 1 TO PAGE
+// RENDER CARD COLLECTION TO PAGE
 
-//   const ul = document.querySelector('.img-marquee-content');
+// a is the lower bound of numnber, b is the upper bound of the number, and tempList is the ul extracted from the HTML,
+// cards is the dataset from nft
 
-//   function renderCardsToPage(cards){
+function renderCardsToPage(a, b, tempList,cards){
 
-//     for(i=0; i<10; i++){
-//         let list_item = document.createElement('li');
-//         list_item.classList.add(cards[i]['Collection'],'cards');
-//         //card name
-//         let number = document.createElement("h3");
-//         number.textContent=cards[i]['Name'];
-//         //card price
-//         let price = document.createElement("h4");
-//         price.textContent=cards[i]['Last Price'];
-//         //card collection
-//         let collection = document.createElement("h4");
-//         collection.textContent=cards[i]['Collection'];
-//         //card image
-//         let image = document.createElement("img");
-//         image.setAttribute("src",cards[i]['URL']);
-//         list_item.appendChild(image);
-//         ul.appendChild(list_item);
-//     }
-//   }
+for(i=a; i<b; i++){
+    let list_item = document.createElement('li');
+    list_item.classList.add(cards[i]['Collection'],'cards');
+    //card name
+    let number = document.createElement("h3");
+    number.textContent=cards[i]['Name'];
+    //card price
+    let price = document.createElement("h4");
+    price.textContent=cards[i]['Last Price'];
+    //card collection
+    let collection = document.createElement("h4");
+    collection.textContent=cards[i]['Collection'];
 
-//   renderCardsToPage(nft);
+    //card image
+    let image = document.createElement("img");
+    image.setAttribute("src",cards[i]['URL']);
+    list_item.appendChild(image);
+    tempList.appendChild(list_item);
+}
+    //repeated element for continuous
+for(i=a; i<(b-5); i++){
+    let list_item = document.createElement('li');
+    list_item.classList.add(cards[i]['Collection'],'cards');
+    //card name
+    let number = document.createElement("h3");
+    number.textContent=cards[i]['Name'];
+    //card price
+    let price = document.createElement("h4");
+    price.textContent=cards[i]['Last Price'];
+    //card collection
+    let collection = document.createElement("h4");
+    collection.textContent=cards[i]['Collection'];
 
+    //card image
+    let image = document.createElement("img");
+    image.setAttribute("src",cards[i]['URL']);
+    list_item.appendChild(image);
+    tempList.appendChild(list_item);
+}
+};
+
+const ul1 = document.querySelector('#marquee-1');
+const ul2 = document.querySelector('#marquee-2');
+const ul3 = document.querySelector('#marquee-3');
+const ul4 = document.querySelector('#marquee-4');
+
+
+renderCardsToPage(0,10,ul1,nft);
+renderCardsToPage(10,20,ul2,nft);
+renderCardsToPage(20,30,ul3,nft);
+renderCardsToPage(30,40,ul4,nft);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// renderCards1ToPage(nft);
+// // RENDER CARD COLLECTION 1 TO PAGE
+
+// const ul1 = document.querySelector('#marquee-1');
+
+// function renderCards1ToPage(cards){
+
+// for(i=0; i<10; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul1.appendChild(list_item);
+// }
+// for(i=0; i<5; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul1.appendChild(list_item);
+// }
+// };
+
+// renderCards1ToPage(nft);
+
+
+
+
+// // RENDER CARD COLLECTION 2 TO PAGE
+
+// const ul2 = document.querySelector('#marquee-2');
+
+// function renderCards2ToPage(cards){
+
+// for(i=10; i<20; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul2.appendChild(list_item);
+// }
+// for(i=10; i<15; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul2.appendChild(list_item);
+// }
+// };
+
+// renderCards2ToPage(nft);
+
+
+
+// RENDER CARD COLLECTION 3 TO PAGE
+
+// const ul3 = document.querySelector('#marquee-3');
+
+// function renderCards3ToPage(cards){
+
+// for(i=20; i<30; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul3.appendChild(list_item);
+// }
+// for(i=20; i<25; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul3.appendChild(list_item);
+// }
+// };
+
+// renderCards3ToPage(nft);
+
+
+// // RENDER CARD COLLECTION 3 TO PAGE
+
+// const ul4 = document.querySelector('#marquee-4');
+
+// function renderCards4ToPage(cards){
+
+// for(i=30; i<40; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul4.appendChild(list_item);
+// }
+// for(i=30; i<35; i++){
+//     let list_item = document.createElement('li');
+//     list_item.classList.add(cards[i]['Collection'],'cards');
+//     //card name
+//     let number = document.createElement("h3");
+//     number.textContent=cards[i]['Name'];
+//     //card price
+//     let price = document.createElement("h4");
+//     price.textContent=cards[i]['Last Price'];
+//     //card collection
+//     let collection = document.createElement("h4");
+//     collection.textContent=cards[i]['Collection'];
+
+//     //card image
+//     let image = document.createElement("img");
+//     image.setAttribute("src",cards[i]['URL']);
+//     list_item.appendChild(image);
+//     ul4.appendChild(list_item);
+// }
+// };
+
+// renderCards4ToPage(nft);

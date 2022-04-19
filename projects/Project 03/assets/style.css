@@ -34,7 +34,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    box-shadow: 0px 10px 10px rgba(24,26,39,0.15);
+    box-shadow: 0px 10px 10px rgba(214,0,255,0.2);
 }
 
 nav a{
@@ -44,6 +44,7 @@ nav a{
     position: relative;
     letter-spacing: .15em;
     transition: 1s;
+    text-shadow: 4px 4px 8px rgba(214,0,255,0.25);;
 }
 
 nav a:hover{
@@ -73,6 +74,10 @@ main{
     top: 90px;
 }
 
+ul li img{
+    box-shadow: 7px 7px 7px rgba(214,0,255,0.25);
+}
+
 
 /* SECTION STYLE */
 
@@ -86,6 +91,7 @@ section{
     width: 100vw;
     white-space: nowrap;
     overflow: hidden;
+    box-shadow: 4px 4px 4px rgba(214,0,255,0.15);
 }
 
 .text-marquee div{
