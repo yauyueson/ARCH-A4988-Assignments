@@ -38,6 +38,8 @@ nav{
 }
 
 nav a{
+    font-family: 'Space Mono', monospace;
+    font-size: 60px;
     padding: 5px 20px;
     text-decoration: none;
     color: #00b8ff;
