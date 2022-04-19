@@ -17,9 +17,9 @@ body{
 
 /* NAVIGATION STYLE */
 nav{
-    font-family: "Rois Medium";
+    font-family: 'Space Mono', monospace;
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 700;
     width: 100vw;
     height: 90px;
     margin: auto;
