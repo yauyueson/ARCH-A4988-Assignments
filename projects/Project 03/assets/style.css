@@ -98,7 +98,7 @@ section{
     color: #00ff9f;
     font-size: 19px;
     font-weight: 700;
-    animation: animate 60s linear infinite;
+    animation: animate 50s linear infinite;
     padding-left: 100%;
     display: inline-block;
 }
@@ -132,6 +132,7 @@ section{
 
 .img-marquee-content:hover {
     animation-play-state: paused;
+    cursor:grab;
 }
 
 
@@ -173,6 +174,7 @@ section{
 
 .img-marquee-content-2:hover {
     animation-play-state: paused;
+    cursor: grab;
 }
 
 

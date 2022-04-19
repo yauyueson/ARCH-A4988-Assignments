@@ -76,140 +76,140 @@ const nft =[
     {
      "Serial No": 11,
      "Name": "Bored Ape Yacht Club #3368",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 29.5",
      "URL": "https:\/\/lh3.googleusercontent.com\/u-2FnHbaJ3U_KCDlmg2McX9Yfo7brsAzOffqihNXCGkHljA89SPPzwdjQiVSWcsvxCoj_ydBcDNCuZvHEekaYekaMEH4XX32k9US=w600"
     },
     {
      "Serial No": 12,
      "Name": "Bored Ape Yacht Club #3650",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 69",
      "URL": "https:\/\/lh3.googleusercontent.com\/1up7IvZnXj99OAavLkjdahY4ROjwqOKDvgmPxceirndDuW_YJUOToHGJldUI0LjtFTUFbHfikAMN5nr_uWxi1tcVtjhJN45DAwV_QQ=w600"
     },
     {
      "Serial No": 13,
      "Name": "Bored Ape Yacht Club #9996",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 0.39",
      "URL": "https:\/\/lh3.googleusercontent.com\/oOxrPSqIusE3pR1vLRSTQwfn52LnwnsZ_a1nCXked6fwOHrOnhvMBM1uMpshUb8Q4lL-gnlV9YoteT9cXnDgIsz46Zkbo7CImK-yKw=w600"
     },
     {
      "Serial No": 14,
      "Name": "Bored Ape Yacht Club #122",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 23",
      "URL": "https:\/\/lh3.googleusercontent.com\/BLM8j8CkydHV2XuYC-ZB_bFiCFFjAbMPYCKr7BUVEPZpGnjfOdTcIwtJR-VKldUodiKn1qR-bypOLla0Ci9I_byu9OC70zjJHjZFWw=w600"
     },
     {
      "Serial No": 15,
      "Name": "Bored Ape Yacht Club #8470",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 51",
      "URL": "https:\/\/lh3.googleusercontent.com\/eqXJ2N23ycVCyKLKegfprn7sAdfeLUe4OpZ3i8i36lc07u-0jgiE6U2hM5bkHwRAvEyGhRktz2T1MD4Kbh4ojZn2f2GOKi-TB8Un2Q=w600"
     },
     {
      "Serial No": 16,
      "Name": "Bored Ape Yacht Club #955",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 140",
      "URL": "https:\/\/lh3.googleusercontent.com\/7Wg2BOR6Y19roz1O4ZbHucCQQvYiseV47tOYgy8Jp27vlLeUPGXPwrYH1aAQZJ8n88XL2F9McN56RzM8EBQbd-RUsNmHIbx6Swu60Jw=w600"
     },
     {
      "Serial No": 17,
      "Name": "Bored Ape Yacht Club #4303",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 95",
      "URL": "https:\/\/lh3.googleusercontent.com\/a0Hq33FbaDYQB5SqSlwyb2AUYOcZYaa2JoadJVoegfG26546E7ARj6BAlG3NX5yOGtNNTw6JcTwiRO8qEmcpNBcSyw8bg9W5eqw90Q=w600"
     },
     {
      "Serial No": 18,
      "Name": "Bored Ape Yacht Club #9419",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 73.5",
      "URL": "https:\/\/lh3.googleusercontent.com\/j_0RWoaLct0GOHnW4EGpT9p-u1yIpSkd6R8JWKbg_9AoiP9HMKTZj2GKETacOgIAlL--7irqVFwqTGqDrrgaxJMoaw2-NrR-IvE0=w600"
     },
     {
      "Serial No": 19,
      "Name": "Bored Ape Yacht Club #1455",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 47.99",
      "URL": "https:\/\/lh3.googleusercontent.com\/NTqLmufORLnsDfM7PXMy8CKAU9Hi4F1SoSqAVjDntISqNc0TPEi0oEM08MCYgOureqWAADfZt-h3x8NDzrD6Heme1gCqge4KYxrAWw=w600"
     },
     {
      "Serial No": 20,
      "Name": "Bored Ape Yacht Club #2180",
-     "Collection": "BoredApeYachtClub",
+     "Collection": "Bored Ape Yacht Club",
      "Last Price": "ETH 97",
      "URL": "https:\/\/lh3.googleusercontent.com\/M8AUbgTlaOl6gMTDHh0maDiUXiyKFGlOPjspVoPDTs_Cd5Xujttwk7lvi4FFkCJXREND3edb99cERHc4wKpP4tiGMMekH-_Eva_R9A=w600"
     },
     {
      "Serial No": 21,
      "Name": "Mutant Ape Yacht Club #15352",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "ETH 69",
      "URL": "https:\/\/lh3.googleusercontent.com\/-Yl4DMKOJhcNSRVqJCQ57itbUKN97YzRMiIgCk8aU7drYiFQYYq8cl5FlHUZLbxAhCyJiQ3P7zzijbfyhZHghFpNRGQW6SNqiS_i=w600"
     },
     {
      "Serial No": 22,
      "Name": "Mutant Ape Yacht Club #8810",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 24.5",
      "URL": "https:\/\/lh3.googleusercontent.com\/8ir3j_xTVQ4-4wAZ5U0uOiLc7Jc6PJuGhIvSdLKr5r3zVBWJiNhrZu2z7MFTHVg5IlmEu5LR2o9Hpl_lVzu0lGWh5gPZ9cJL8Ifq9Q=w600"
     },
     {
      "Serial No": 23,
      "Name": "Mutant Ape Yacht Club #6044",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 25.4985",
      "URL": "https:\/\/lh3.googleusercontent.com\/FRnfoqP_aB1H-ZG5mw13pBPeH9765AnXXxsFNZg6vnpux_46WqDTswvVjXyKhwTSWGIlfEp5gG_8RUdCOIbTpteK0clxJCcgBf6e-g=w600"
     },
     {
      "Serial No": 24,
      "Name": "Mutant Ape Yacht Club #13856",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 0.2496",
      "URL": "https:\/\/lh3.googleusercontent.com\/llAeu8wuoTdtwJLDy7xe6LOw5-Dj_TPAKs5fU9X9M7fwgHDmXfz0xeehpu1YPEUj1AxT4oulLxRIQYtatzCWo3C5Zl3ifjUWVnMFuyM=w600"
     },
     {
      "Serial No": 25,
      "Name": "Mutant Ape Yacht Club #17107",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 26.01",
      "URL": "https:\/\/lh3.googleusercontent.com\/hZb9LN5zTOhUdEkaSgXPJPoSXH7rMQguG4_dxIsF0EvmwJ2C9dN7VU5l2KP66BlfdLgJRiPvH82zOfp0XUhOZJbpzVhCC_eC4QOi3w=w600"
     },
     {
      "Serial No": 26,
      "Name": "Mutant Ape Yacht Club #7208",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 26.28",
      "URL": "https:\/\/lh3.googleusercontent.com\/z58CQCG3qsaSyJINKelfLCFgMjtCJrVXUf330oWKW-pFBvHQFdXhN0eIDNLF0r0Ak4QU-W9xMXZSkDSiPKN-T8f6ZqnXeLyWhIad=w600"
     },
     {
      "Serial No": 27,
      "Name": "Mutant Ape Yacht Club #861",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "ETH 51",
      "URL": "https:\/\/lh3.googleusercontent.com\/uWYUcbkrCp_l6DmKEx5wI8wLC209jdfHokZY-IRCrNAk8mQnCqSEexo32itUtqXtut5FXLO0PGyi8s8xBDAKeS4BUmyKqLoH188yDA=w600"
     },
     {
      "Serial No": 28,
      "Name": "Mutant Ape Yacht Club #2196",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 25.51",
      "URL": "https:\/\/lh3.googleusercontent.com\/p8m4ceuIDgOhk9m6TjXQuAA_yOON0t3UxCSYl4AutjEO2M0UoVix4rlH16_Pnj5bKRXjJK2cqgkAHwpxFOVRDp-h8fkPFLhxLcA0BA=w600"
     },
     {
      "Serial No": 29,
      "Name": "Mutant Ape Yacht Club #4849",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 22.928",
      "URL": "https:\/\/lh3.googleusercontent.com\/dG9YdzvAUCNMhB9cwDLziLFWoHgGytlCxAQ-uJ67USsch7-6iZu5kvgMcMB8WGpbXRXdq7A86Z-P9lUvceQ-MaSUTsAP2qYEKo_0dg=w600"
     },
     {
      "Serial No": 30,
      "Name": "Mutant Ape Yacht Club #15290",
-     "Collection": "MutantApeYachtClub",
+     "Collection": "Mutant Ape Yacht Club",
      "Last Price": "WETH 28",
      "URL": "https:\/\/lh3.googleusercontent.com\/VjcjwhsEOK-JRYdhJ95mXoz6PB3yfnqYRZ8gi7O8_1NAUdUCaKlP-YvHS7LHrsPREHccEnWmtRJ1r2mTqymb8UfuKVTuv6iDc7u8NQ=w600"
     },
@@ -282,14 +282,94 @@ const nft =[
      "Collection": "Azuki",
      "Last Price": "WETH 16.6183",
      "URL": "https:\/\/lh3.googleusercontent.com\/R1i0cndlxRVg9YNhDK8Z7zefYxy1SDbhEjxB_GNwYVjMq_CsPxSOZ1hKYZxcOz3rmCqdfwVJ5GcWK0AG2q7uyZ6hrp1aOBV66Gcaqw=w600"
+    },
+    {
+     "Serial No": 41,
+     "Name": "CloneX #16492",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 0.069",
+     "URL": "https:\/\/lh3.googleusercontent.com\/eblhqfZIUgon6zfE8uAzBygABxdOb7WjtHff0Jt8aliTAoswNFY54fCWq3akaJ7uu0cFk1C2e-Mkl4BYP9vI2FpyqGoHG-ctV_IcVg=w600"
+    },
+    {
+     "Serial No": 42,
+     "Name": "CloneX #1296",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 0.5512",
+     "URL": "https:\/\/lh3.googleusercontent.com\/xHJmuOgJ6dO1wYURbqnriQ7wQBvtRh-WZdm6Box64cLtJzR7VpZP0YwtKpzEzbvoUvYWHqFaQqlBj1VPphWocHTSNBPRix3G2eH0Gg=w600"
+    },
+    {
+     "Serial No": 43,
+     "Name": "CloneX #10860",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 0.6174",
+     "URL": "https:\/\/lh3.googleusercontent.com\/wtmbWMLCJ7QxsY41fv4O7hzQSr7g5ya_i3zAYXn_BH3-SzcKzhywf8t3aPXs4IIGpcQb_Gf4vt_AkCdcdlbXHRT3DZdlzqLO2IL1_9o=w600"
+    },
+    {
+     "Serial No": 44,
+     "Name": "CloneX #3433",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 1.05",
+     "URL": "https:\/\/lh3.googleusercontent.com\/A-ToQqnmtAqKtZwvx68e6m2cV4HybPUcuvxxO1qEH5tbrz2CjkYq0oXOev0ZT4mOoTAZm78utfuIlAoNAyCc5EVpF60JBYnZ-hKX=w600"
+    },
+    {
+     "Serial No": 45,
+     "Name": "CloneX #8717",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 11.7452",
+     "URL": "https:\/\/lh3.googleusercontent.com\/XOEe6xz9E26GU4nnHWXYesbxHpRh2fLjpSSrZbfuXRyBVl8DLzZhgdFkXMeQhqbzXHFdIsOfGM-OcUrPjgo3GbrlUkqZp1vKwnjoMg=w600"
+    },
+    {
+     "Serial No": 46,
+     "Name": "CloneX #10387",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 13.9345",
+     "URL": "https:\/\/lh3.googleusercontent.com\/IOtnbQNztsvrcqCyJmDGCJTlzYXJR69pDHbgW1ylhQFjS99en_RqW-4U3BkyPf_tpnKs2i3v15P-VuYjlFmXRSVv-C_rB6LEbm2j5QY=w600"
+    },
+    {
+     "Serial No": 47,
+     "Name": "CloneX #15196",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 14",
+     "URL": "https:\/\/lh3.googleusercontent.com\/M9_TBFqofkIAKsdrMv5UON40R36Y26YPMwzleU4cul1tRcJaew29e8IgAkdhA_Svpl3Vjf_5hXOKFtkHSPtbaEp7sqXhKWyg19M4_g=w600"
+    },
+    {
+     "Serial No": 48,
+     "Name": "CloneX #5170",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 14.99",
+     "URL": "https:\/\/lh3.googleusercontent.com\/Pi7rhlROvxnrn-WHrbJb9NsS1V-SFKTympVp031tUyhyGK1BDkDY5T5RMiHLsAaPBzSB10xPR4HS2a5hLmUIySMhL81h400LVAXWBQ=w600"
+    },
+    {
+     "Serial No": 49,
+     "Name": "CloneX #12073",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 15",
+     "URL": "https:\/\/lh3.googleusercontent.com\/Se2_F3A-w9UPtxaP2hQvgJYRvW9v-8WNpOv9OR-sO9Oug97E321W6j9SZAAdXRU4_5rz9PYSxAQriIv7Uyi6wKsqqI37qDsfKth3Y9g=w600"
+    },
+    {
+     "Serial No": 50,
+     "Name": "CloneX #18759",
+     "Collection": "CLONE X - X TAKASHI MURAKAMI",
+     "Last Price": "WETH 16",
+     "URL": "https:\/\/lh3.googleusercontent.com\/_FV-xHBJOMPw_90aYLoUGU5tSFM3fEwcyn19Ym9PUYwZX3thVzGwheKyXcMWuoo1Jc4PrtVZfKQf3a7CAQlwDVa3TRqnIcXaDuuHfQ=w600"
     }
    ];
   
   
+ // GET RID OF WHITE SPACE 
+
+
+for(i=0; i<nft.length; i++){
+    nft[i]['Collection']=nft[i]['Collection'].replace(/\s/g, '');
+    console.log(nft[i]['Collection'])
+}
+
+
 // RENDER CARD COLLECTION TO PAGE
 
 // a is the lower bound of numnber, b is the upper bound of the number, and tempList is the ul extracted from the HTML,
 // cards is the dataset from nft
+
 
 function renderCardsToPage(a, b, tempList,cards){
 
@@ -338,16 +418,13 @@ const ul1 = document.querySelector('#marquee-1');
 const ul2 = document.querySelector('#marquee-2');
 const ul3 = document.querySelector('#marquee-3');
 const ul4 = document.querySelector('#marquee-4');
-
+const ul5 = document.querySelector('#marquee-5');
 
 renderCardsToPage(0,10,ul1,nft);
 renderCardsToPage(10,20,ul2,nft);
 renderCardsToPage(20,30,ul3,nft);
 renderCardsToPage(30,40,ul4,nft);
-
-
-
-
+renderCardsToPage(40,50,ul5,nft);
 
 
 
