@@ -504,7 +504,6 @@ let nftbackup = nft;
 
 let sortBtns = document.querySelector('.sort-content');
 
-
 function sortFn(event){
   if (event.target.classList.contains('sort-btn')){
     const sortValue = event.target.getAttribute('data-filter');
