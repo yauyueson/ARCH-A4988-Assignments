@@ -17,9 +17,9 @@ body{
 
 /* NAVIGATION STYLE */
 nav{
-    font-family: 'Space Mono', monospace;
+    font-family: 'Raleway', sans-serif;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 800;
     width: 100vw;
     height: 90px;
     margin: auto;
@@ -34,7 +34,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    box-shadow: 0px 10px 10px rgba(214,0,255,0.15);
+    box-shadow: 0px 7px 7px rgba(214,0,255,0.15);
 }
 
 
@@ -45,12 +45,12 @@ nav a{
     position: relative;
     letter-spacing: .15em;
     transition: 1s;
-    text-shadow: 4px 4px 8px rgba(214,0,255,0.25);;
+    text-shadow: 4px 4px 8px rgba(214,0,255,0.15);;
 }
 
 nav a:hover{
     color: #00ff9f;
- 
+    transform: scale(1.05);
 }
 
 
@@ -111,11 +111,12 @@ main{
     color: #d600ff;
     transition: 0.75s;
     cursor: pointer;
+    transform: scale(1.03);
 }
 
 
 .card-container ul li{
-   box-shadow: 10px 10px 10px rgba(214,0,255,0.15);
+   box-shadow: 7px 7px 7px rgba(214,0,255,0.15);
 }
 
 
@@ -155,10 +156,6 @@ main{
     color: #00ff9f;
 }
 
-.filter-content h1{
-    font-size: 30px;
-}
-
 .filter-fixed{
     margin: auto;
     width: 20%;
@@ -168,6 +165,9 @@ main{
     box-shadow: 10px 10px 10px rgba(214,0,255,0.15);
 }
 
+.filter-content h1{
+    font-size: 30px;
+}
 
 .filter-content{
     margin: 15px auto;
@@ -210,4 +210,79 @@ main{
 
 
 
+/* SORT CONTAINER STYLE */
 
+.sort-content h1{
+    font-size: 30px;
+}
+
+.sort-content{
+    margin: 15px auto;
+    width: 90%;
+}
+
+.black-line{
+    margin: auto;
+    background-color: #00ff9f;
+    width: 100%;
+    height: 2px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sort-btn{
+    margin: 10px;
+    margin-left: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: white;
+    transition: 0.5s;
+    color: #00ff9f;
+    box-shadow: 7px 7px 7px rgba(214,0,255,0.15);
+}
+
+.sort-btn:hover{
+    color: #d600ff;
+    background-color: #00ff9f;
+    cursor: pointer;
+}
+
+/* HELP CONTENT STYLE */
+
+.help-content h1{
+    font-size: 30px;
+}
+
+.help-content{
+    margin: 15px auto;
+    width: 90%;
+}
+
+.warn-btn{
+    margin: 10px;
+    margin-left: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 19px;
+    font-weight: 700;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: white;
+    transition: 0.5s;
+    color: #00ff9f;
+    box-shadow: 7px 7px 7px rgba(214,0,255,0.15);
+}
+
+.warn-btn:hover{
+    color: #d600ff;
+    background-color: #00ff9f;
+    cursor: pointer;
+}
