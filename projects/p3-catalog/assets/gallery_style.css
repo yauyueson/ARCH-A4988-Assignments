@@ -45,7 +45,7 @@ nav a{
     position: relative;
     letter-spacing: .15em;
     transition: 1s;
-    text-shadow: 4px 4px 8px rgba(214,0,255,0.15);;
+    text-shadow: 5px 5px 5px rgba(214,0,255,0.2);;
 }
 
 nav a:hover{
